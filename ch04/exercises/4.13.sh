@@ -1,4 +1,5 @@
-cd /kiamol/ch04 
+# cd /kiamol/ch04 
+cd ch04
 
 kubectl apply -f todo-list/secrets/todo-db-secret-test.yaml
 kubectl get secret todo-db-secret-test -o jsonpath='{.data.POSTGRES_PASSWORD}'

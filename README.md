@@ -1,5 +1,7 @@
 # [Learn Kubernetes in a Month of Lunches](https://www.manning.com/books/learn-kubernetes-in-a-month-of-lunches)
 
+[local branch](https://github.com/mikemessina/kiamol)
+
 This is the source code for my Manning book _Learn Kubernetes in a Month of Lunches_ (codename `kiamol`).
 
 > It's a work in progress. You can get all the completed chapters with [Manning's Early Access Program](https://www.manning.com/books/learn-kubernetes-in-a-month-of-lunches).

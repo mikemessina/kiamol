@@ -1,4 +1,5 @@
-cd /kiamol/ch04 
+# cd /kiamol/ch04 
+cd ch04
 
 kubectl apply -f todo-list/todo-web-dev-no-logging.yaml
 kubectl exec deploy/todo-web -- sh -c 'ls /app/config'

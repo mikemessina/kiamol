@@ -1,4 +1,5 @@
-cd /kiamol/ch04 
+# cd /kiamol/ch04 
+cd ch04
 
 kubectl create secret generic sleep-secret-literal --from-literal=secret=shh...
 kubectl describe secret sleep-secret-literal

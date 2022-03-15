@@ -1,4 +1,5 @@
-cd /kiamol/ch04 
+# cd /kiamol/ch04 
+cd ch04
 
 kubectl create configmap sleep-config-env-file --from-env-file=sleep/ch04.env
 kubectl get cm sleep-config-env-file

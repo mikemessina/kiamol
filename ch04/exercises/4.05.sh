@@ -1,4 +1,5 @@
-cd /kiamol/ch04 
+# cd /kiamol/ch04 
+cd ch04
 
 kubectl apply -f todo-list/todo-web.yaml
 kubectl wait --for=condition=Ready pod -l app=todo-web

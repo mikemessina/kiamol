@@ -1,4 +1,5 @@
-cd /kiamol/ch04 
+# cd /kiamol/ch04 
+cd ch04 
 
 kubectl create configmap sleep-config-literal --from-literal=kiamol.section='4.1'
 kubectl get cm sleep-config-literal

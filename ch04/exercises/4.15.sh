@@ -1,4 +1,5 @@
-cd /kiamol/ch04 
+# cd /kiamol/ch04 
+cd ch04
 
 kubectl apply -f todo-list/configMaps/todo-web-config-test.yaml
 kubectl apply -f todo-list/secrets/todo-web-secret-test.yaml

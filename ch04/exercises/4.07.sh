@@ -1,4 +1,5 @@
-cd /kiamol/ch04 
+# cd /kiamol/ch04 
+cd ch04
 
 kubectl exec deploy/todo-web -- sh -c 'ls -l /app/app*.json'
 kubectl exec deploy/todo-web -- sh -c 'ls -l /app/config/*.json'
